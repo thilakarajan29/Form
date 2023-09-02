@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+}
+
+img{
+    transition: all .4s;
+
+}
+ 
+img:hover{
+    transform: scale(1.1);
+}
+
+input{
+    border-radius: 5px;
+}
+
+.form{
+    position: relative;
+    top: 125px;
+    width: 300px;
+    height: 350px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body{
+    background-color: purple;
+    font-family: 'Inter', sans-serif;
+}
+
+.lable{
+    transition: all.5s;
+    background-color: rgb(187, 185, 185);
+    border: 1px solid black;
+}
+.lable:active{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+.lable:hover{
+    
+    cursor: pointer;
+}
+.button{
+    transition: all.5s;
+    background-color: purple;
+    color: aliceblue;
+}
+.button:active{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+.button:hover{
+    
+    cursor: pointer;
+}
+.p{
+    font-size: small;
+    position: relative;
+    bottom: 15px;
+}
+.a{
+    color: blueviolet;
+    transition: all .4s;
+}
+.a:hover{
+    transform: scale(1.1);
+}
+.a1{
+    color: blueviolet;
+    transition: all.4s;
+    position: relative;
+    top: 5px;
+    font-size: small;
+}
+.a1:hover{
+    transform: scale(1.1);
+}
